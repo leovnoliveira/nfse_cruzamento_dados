@@ -193,11 +193,5 @@ def carregar_dados(df: pd.DataFrame, formato_de_saida: str):
         print("Formato de saída inválido. Escolha 'csv', 'excel' ou 'ambos'.")
     
 
-# print(data_dominio.info())
-# print(data_pref.info())
-
-
-print(clientes_nao_encontrados)
-#clientes_nao_encontrados.to_csv("dados_clientes_nao_encontrados.csv")
 
 
