@@ -13,6 +13,18 @@ files = [
 ]
 
 [[package]]
+name = "git-filter-repo"
+version = "2.47.0"
+description = "Quickly rewrite git repository history"
+optional = false
+python-versions = ">=3.6"
+groups = ["main"]
+files = [
+    {file = "git_filter_repo-2.47.0-py3-none-any.whl", hash = "sha256:2cd04929b9024e83e65db571cbe36aec65ead0cb5f9ec5abe42158654af5ad83"},
+    {file = "git_filter_repo-2.47.0.tar.gz", hash = "sha256:411b27e68a080c07a69c233cb526dbc2d848b09a72f10477f4444dd0822cf290"},
+]
+
+[[package]]
 name = "numpy"
 version = "2.2.3"
 description = "Fundamental package for array computing in Python"
@@ -246,4 +258,4 @@ test = ["pytest", "pytest-cov"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.13"
-content-hash = "9d086d6d626768fa107a98fa4ee4f9acb4878fb8ebec72dd6db073c03e2ab53b"
+content-hash = "57a7da7b20e4abe79aef86f65cbb1638578691079e9bcf166a119313bea7ab5e"
