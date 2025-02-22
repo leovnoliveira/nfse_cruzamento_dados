@@ -6,3 +6,7 @@ dados_dominio.csv
 dados_pref.csv
 dados_prefeitura_tratados.csv
 dados_pref_tratados.csv
+dados_pref_tratados.csv
+data/
+*.csv
+bfg-1.14.0.jar
