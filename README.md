@@ -52,7 +52,7 @@ Para instalar o Poetry, no terminal do bash faça:
 2. `pipx install poetry`
 3. `poetry init`(para criar o arquivo pyproject.toml)
 4. Ou, melhor ainda, faça `poetry new 'nome-do-seu-projeto'`, que já cria um ambiente básico de projeto, com pasta de test, pasta principal, o arquivo pyproject.toml, um README.md e um .gitignore.
-5. `poetry add loguru` (para adicionar o pacote logurue ao pyproject.toml)
+5. `poetry add pandas` (para adicionar o pacote logurue ao pyproject.toml)
 6. `poetry env activate` para ativar seu ambiente virtual com o pacote logoru. Este passo irá adicionar uma pasta .venv no seu projeto.
 7. `poetry run python 'archive.py'` para rodar um script python no terminal utilizando seu ambiente virtual poetry.
 
